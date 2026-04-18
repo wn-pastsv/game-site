@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>光と闇 ブラック</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="css/light_darkness.css">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../../css/content.css">
+<!--左側のメニュー-->
+<link rel="stylesheet" href="../../css/vertical-responsive-menu.css" />
+
+<!--googlewebフォント-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!--アイコンwebフォント-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<noscript>
+<p>※このページはJavaScriptを使用しています。JavaScript設定を有効にしてご覧ください。</p>
+</noscript>
+
+<!--ロゴ（ページ左上のサイト名）-->
+<header class="header" id="header"></header>
+
+<!--左側のメニュー-->
+<nav class="vertical_nav leftnav" id="left_menu"></nav>
+
+<div class="wrapper">
+  <div class="main">
+    <div class="content">
+      <div class="top_content_inner">
+        <article style="margin: 0px;	padding: 0px;">
+          <h2>光と闇　闇の世界の住人 ブラック</h2>
+          <section style="margin: 0px;	padding: 0px;">
+            <input type="hidden" id="wb_type" value="black" />
+            <div id="include_b0" style="display:none" class="include darkness"></div>
+            <div id="include_b1" style="display:none" class="include"></div>
+            <div id="include_b2" style="display:none" class="include"></div>
+            <div id="include_b3" style="display:none" class="include"></div>
+            <div id="include_b4" style="display:none" class="include"></div>
+            <div id="include_b5" style="display:none" class="include"></div>
+            <div id="include_b6" style="display:none" class="include"></div>
+            <div id="include_b7" style="display:none" class="include"></div>
+            <div id="include_b8" style="display:none" class="include"></div>
+            <div id="include_b9" style="display:none" class="include"></div>
+            <div id="include_b10" style="display:none" class="include gray"></div>
+            <div id="include_b11" style="display:none" class="include gray"></div>
+            <div id="include_b12" style="display:none" class="include gray"></div>
+            <br>
+<br>
+<br>
+<br>
+<div id="include_branch_reset" style="display:none"></div>
+<br>
+<button type="button" onClick="return reset();"><small>全ての回答をリセット</small></button>
+
+          </section>
+          <div class="grid_wrap" style="margin-top:30px">
+            
+            <div class="grid_box affi2"> <!--アフィリエイト(幅1280px以下の場合に表示)--> 
+              <!-- ここにレスポンシブ広告コードなどを貼り付け --> 
+              <img src="images/ad2.png" alt="広告" style="width:100%; text-align:center"/> </div>
+          </div>
+        </article>
+        <!-- / .top_content_inner --> 
+      </div>
+      <!-- / .content --> 
+    </div>
+    <!-- / .main --> 
+  </div>
+
+  <!-- / .wrapper --> 
+</div>
+
+<!-- footer --> 
+<footer id="footer"></footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--googleのCDN（ネットワーク経由でコンテンツを提供するサービス）よりjqueryをロード-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+
+<!--エフェクト動作--> 
+<script src="../../js/vertical-responsive-menu.min.js" ></script> <!--左側のメニュー--> 
+
+<script src="js/light_darkness.js" ></script>
+
+<script>
+$(function(){
+  $.ajaxSetup({cache:false});
+  $("#header").load("../../include/logo_sub2.html");
+  $("#left_menu").load("../../include/left_menu_sub2.html");
+  $("#footer").load("../../include/footer.html");
+});
+</script>
+</body>
+</html>

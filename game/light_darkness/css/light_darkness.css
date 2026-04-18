@@ -1,0 +1,35 @@
+.answer {
+	padding: 12px 12px;
+	font-size: 18px;
+	border: 1px solid gray;
+}
+
+.include {
+	margin: 0px; /* 外側の余白 */
+	padding: 20px; /* 内側の余白 */
+}
+
+.darkness {
+	color: white;
+	background-color: black;
+}
+.gray {
+	color: black;
+	background-color: rgb(162, 162, 162);
+}
+
+
+
+
+.radio9 {
+	display: none;
+}
+
+.radio9 + .radio_image {
+	border: 3px none;
+	width: 100px;
+	height: 100px;
+}
+.radio9:checked + .radio_image {
+	border: 3px #ff0000 solid;
+}
