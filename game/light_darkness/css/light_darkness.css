@@ -18,9 +18,6 @@
 	background-color: rgb(162, 162, 162);
 }
 
-
-
-
 .radio9 {
 	display: none;
 }
@@ -32,4 +29,9 @@
 }
 .radio9:checked + .radio_image {
 	border: 3px #ff0000 solid;
+}
+
+.question_image{
+	max-width:100%;
+	height:auto;
 }
