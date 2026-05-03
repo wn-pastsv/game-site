@@ -35,3 +35,11 @@
 	max-width:100%;
 	height:auto;
 }
+
+.hint summary {
+	font-size: 0.8rem;		/*文字サイズ。0.8倍。*/
+	border-bottom: 0px;	/*下線の幅、線種、色*/
+}
+.hint p {
+	font-size: 0.8rem;		/*文字サイズ。0.8倍。*/
+}
