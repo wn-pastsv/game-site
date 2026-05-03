@@ -91,11 +91,11 @@ function send(_intN){
             case 0: isCorrect = true; break;
             case 1: isCorrect = true; break;
             case 2: isCorrect = (a==3577); break; 
-            case 3: isCorrect = (a=="2C" || a=="C2"); break; 
+            case 3: isCorrect = (a=="2C" || a=="C2" || a=="2c" || a=="c2"); break; 
             case 4: isCorrect = true; break;
-            case 5: isCorrect = (a==9201); break; 
+            case 5: isCorrect = (a=="9201B"); break; 
             case 6: isCorrect = (a==19); break; 
-            case 7: isCorrect = (a=="4C" || a=="C4"); break; 
+            case 7: isCorrect = (a=="4C" || a=="C4" || a=="4c" || a=="c4"); break; 
             case 8: isCorrect = true; break;
             case 10: isCorrect = (a=="通信技術"); break; 
             case 11: isCorrect = (a=="浄化魔法"); break; 
@@ -106,11 +106,11 @@ function send(_intN){
             case 0: isCorrect = true; break;
             case 1: isCorrect = true; break;
             case 2: isCorrect = (a==3577); break; 
-            case 3: isCorrect = (a=="2C" || a=="C2"); break; 
+            case 3: isCorrect = (a=="2C" || a=="C2" || a=="2c" || a=="c2"); break; 
             case 4: isCorrect = true; break;
             case 5: isCorrect = (a=="しんでん" || a=="神殿"); break; 
             case 6: isCorrect = (a=="holy"); break; 
-            case 7: isCorrect = (a=="4C" || a=="C4"); break; 
+            case 7: isCorrect = (a=="4C" || a=="C4" || a=="4c" || a=="c4"); break; 
             case 8: isCorrect = true; break;
             case 10: isCorrect = (a=="回復魔法"); break; 
             case 11: isCorrect = (a=="土木技術"); break; 
