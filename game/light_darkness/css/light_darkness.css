@@ -43,3 +43,7 @@
 .hint p {
 	font-size: 0.8rem;		/*文字サイズ。0.8倍。*/
 }
+
+.episode {
+	color: none;
+}
